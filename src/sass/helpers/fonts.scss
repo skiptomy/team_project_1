@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'AcromBold';
+  src: url('../../fonts/AcromBold.woff2') format('woff2'),
+    url('../../fonts/AcromBold.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AcromExtraBold';
+  src: url('../../fonts/AcromExtraBold.woff2') format('woff2'),
+    url('../../fonts/AcromExtraBold.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AcromMedium';
+  src: url('../../fonts/AcromMedium.woff2') format('woff2'),
+    url('../../fonts/AcromMedium.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'AcromRegular';
+  src: url('../../fonts/AcromRegular.woff2') format('woff2'),
+    url('../../fonts/AcromRegular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../../fonts/montserrat-v13-latin-700.woff2') format('woff2'),
+    url('../../fonts/montserrat-v13-latin-700.woff') format('woff'); 
+}
