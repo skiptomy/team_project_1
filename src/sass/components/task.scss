@@ -1,0 +1,37 @@
+.task {
+  @media (max-width: 599px) {
+    margin: 0 auto;
+    padding-top: 32px;;
+    color: $secondary-color;
+    width: 258px;
+    height: 49px;
+    font-family: $acromextrabold;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  @media (min-width: 600px) {
+    margin: 0 auto;
+    padding-top: 32px;;
+    color: $secondary-color;
+    width: 580px;
+    height: 80px;
+    font-family: $acromextrabold;
+    font-size: 40px;
+    font-weight: 700;
+  }
+
+  @media (min-width: 1500px) {
+    position: relative;
+    margin: 0 auto;
+    padding-top: 32px;;
+    color: $secondary-color;
+    width: 690px;
+    height: 100px;
+    font-family: $acromextrabold;
+    font-size: 48px;
+    font-weight: 700;
+    right: 100px;
+    transform: translateX(-100px);
+  }
+}

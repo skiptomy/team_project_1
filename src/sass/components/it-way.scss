@@ -1,0 +1,24 @@
+.it-way {
+  @media (max-width: 599px) {
+    margin: 0 auto;
+    padding-top: 38px;
+    width: 320px;
+    height: 568px;
+    background-image: radial-gradient(circle, rgba(4, 51, 78, 1), $secondary-dark-color);
+  }
+  @media (min-width: 600px) {
+    margin: 0 auto;
+    padding-top: 38px;
+    width: 600px;
+    height: 605px;
+    background-image: radial-gradient(circle, rgba(4, 51, 78, 1), $secondary-dark-color);
+  }
+
+  @media (min-width: 1500px) {
+    margin: 0 auto;
+    padding-top: 38px;
+    width: 1170px;
+    height: 644px;
+    background-image: radial-gradient(circle, rgba(4, 51, 78, 1), $secondary-dark-color);
+  }
+}
