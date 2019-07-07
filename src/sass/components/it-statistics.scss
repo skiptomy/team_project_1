@@ -1,0 +1,121 @@
+.title-style {
+  margin: 0;
+  padding: 0;
+  color: $secondary-color;
+}
+
+.statistics-container {
+  width: 260px;
+}
+
+.statistics-wrapper {
+  background-image: url(../../images/mapm.png);
+  background-position: 90% 52%;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.statistics {
+  padding-top: 30px;
+  padding-bottom: 36px;
+
+  &__list {
+    @extend %list;
+  }
+
+  &__item {
+    margin: 0 auto;
+    width: 235px;
+    margin-bottom: 15px;
+  }
+
+  &__item-title {
+    @include font-settings($acromregular, 30px, 1.5);
+    letter-spacing: -0,04em;
+  }
+
+  &__item-description {
+    @include font-settings($acromregular, 14px, 1.5);
+    letter-spacing: -0,04em;
+    margin: 0;
+    padding: 0;
+  }
+
+  &__list-small {
+    width: 235px;
+    @extend %list;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  &__item-small {
+    margin: 0;
+    padding: 0;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+  }
+
+  &__item-small-title {
+    @include font-settings($acromregular, 25px, 1.5);
+    letter-spacing: -0,04em;
+  }
+
+  &__item-small-subtitle {
+    padding: 0;
+    margin: 0;
+    @include font-settings($acromregular, 10px, 1.429);
+  }
+
+  &__list-last {
+    margin: 0 auto;
+    @extend %list;
+  }
+
+  &__item-last {
+    @include font-settings($acromregular, 14px, 1.429);
+    letter-spacing: -0,04em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    &::before {
+      content: '■';
+      display: inline-block;
+      width: 12px;
+      color: $secondary-color;
+      font-size: 25px;
+      margin-right: 30px;
+    }
+  }
+}
+
+.statistics-title {
+  margin: 0 auto;
+  width: 260px;
+  @include font-settings($acrombold, 20px, 1.5);
+  letter-spacing: -1px;
+  margin-bottom: 25px;
+}
+
+.statistics-subtitle {
+  width: 260px;
+  margin: 0 auto;
+  @include font-settings($acromextrabold, 14px, 1.5);
+  letter-spacing: -1px;
+  margin-bottom: 15px;
+}
+
+.statistics-subtitle-small {
+  width: 235px;
+  margin: 0 auto;
+  @include font-settings($acrombold, 14px, 1.5);
+  letter-spacing: -1px;
+}
+
