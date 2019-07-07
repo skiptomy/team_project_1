@@ -2,3 +2,18 @@
    Import partials below
 */
 @import './normalize';
+@import './base.scss';
+
+// helpers
+@import './helpers/fonts.scss';
+@import './helpers/mixins.scss';
+@import './helpers/placeholders.scss';
+@import './helpers/variables.scss';
+
+// sections
+@import './components/consultation.scss';
+@import './components/consultation768.scss';
+@import './components/consultation1200.scss';
+@import './components/it-statistics.scss';
+@import './components/it-statistics768.scss';
+@import './components/it-statistics1200.scss';

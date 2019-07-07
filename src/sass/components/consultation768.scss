@@ -1,0 +1,43 @@
+@media (min-width: 768px) {
+  .container {
+    min-width: 768px;
+    text-align: center;
+  }
+
+  .consultation {
+    padding-top: 45px;
+    padding-bottom: 60px;
+
+    &__list {
+      width: 768px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+
+    &__btn {
+      width: 532px;
+      height: 70px;
+      @include font-settings($acromextrabold, 18px, 1.429);
+      padding: 0;
+      text-transform: none;
+    }
+
+    &__item {
+      &::before {
+        @include font-settings($montserat, 70px, 1.375);
+        top: -60px;
+      }
+    }  
+  }
+
+  .consultation-title {
+    width: 540px;
+    @include font-settings($acromextrabold, 30px, 1.5);
+    margin-bottom: 53px;
+  }
+}
