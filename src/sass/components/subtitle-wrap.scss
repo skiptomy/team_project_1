@@ -1,0 +1,9 @@
+.subtitle-wrap {
+  @media (max-width: 599px) {
+    position: relative;
+    margin: 0 auto;
+    // top: 60px;
+    // left: 30px;
+    // transform: translate(30px, -60px);
+  }
+}

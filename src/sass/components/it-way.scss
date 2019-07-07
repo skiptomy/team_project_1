@@ -14,10 +14,10 @@
     background-image: radial-gradient(circle, rgba(4, 51, 78, 1), $secondary-dark-color);
   }
 
-  @media (min-width: 1500px) {
+  @media (min-width: 1170px) {
     margin: 0 auto;
     padding-top: 38px;
-    width: 1170px;
+    width: 1000px;
     height: 644px;
     background-image: radial-gradient(circle, rgba(4, 51, 78, 1), $secondary-dark-color);
   }

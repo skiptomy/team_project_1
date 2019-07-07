@@ -1,0 +1,11 @@
+.box__title {
+  @media (max-width: 599px) {
+    flex: 0 0 70px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 18px;
+    padding: 20px;
+
+    
+  }
+}

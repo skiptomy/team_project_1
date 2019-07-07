@@ -1,0 +1,8 @@
+.subtitle {
+  @media (max-width: 599px) {
+    margin: 0 auto;
+    top: 30px;
+    left: 35px;
+    transform: translate(35px, -10px);
+  }
+}

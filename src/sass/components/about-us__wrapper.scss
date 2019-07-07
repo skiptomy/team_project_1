@@ -1,0 +1,16 @@
+.about-us__wrapper {
+  @media (max-width: 599px) {
+    margin: 0 auto;
+    padding: 20px;
+    width: 220px;
+    height: 200px;
+    background-image: url(..//images/un_sign.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 300px;
+    transform: translateY(2000px);
+   
+
+  }
+}

@@ -1,0 +1,10 @@
+.box-subtitle {
+  @media (max-width: 599px) {
+    flex: 0 0 80px;
+    margin: 0 auto;
+    padding: 20px;
+    color: rgba(0, 0, 0, 255);
+    font-weight: 700;
+    letter-spacing: 0.4em;
+  }
+}
