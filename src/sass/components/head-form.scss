@@ -1,0 +1,145 @@
+.head-form {
+  margin-bottom: 12px;
+  padding-bottom: 26px;
+  padding-top: 19px;
+  background-color: $main-color;
+  -webkit-box-shadow: 0 0 50px 25px rgba(255, 255, 255, .1);
+          
+
+  &__title {
+    @include font-settings($acromextrabold, 16px, 1.2);
+    color: #000000;
+    margin: 0 auto;
+    margin-bottom: 12px;
+    max-width: 220px;
+  }
+
+  &__text {
+    @include font-settings($acromlight, 13px, 1.2);
+    color: #000000;
+    margin: 0 auto;
+    margin-bottom: 14px;
+    max-width: 220px;
+  }
+
+  &__input {
+    width: 220px;
+    height: 40px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+
+    &--name,
+    &--email {
+      margin-bottom: 12px;
+      padding-left: 15px;
+    }
+
+    &--phone {
+      margin-bottom: 19px;
+      padding-left: 14px;
+    }
+
+    &:not(:last-child) {
+      @include font-settings($acrommedium, 14px, 1.2);
+      color: #a2a2a2;
+    }
+
+    &--submit {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      align-items: center;
+      background-color: $button-color;
+      text-transform: uppercase;
+      @include font-settings($acromextrabold, 16px, 1.2);
+      color: $main-color;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .head-form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    margin-bottom: 9px;
+    padding-bottom: 41px;
+    padding-top: 34px;
+
+    &__title {
+      text-align: center;
+      font-size: 24px;
+      margin-bottom: 22px;
+      max-width: 356px;
+      letter-spacing: -0.01em;
+    }
+
+    &__text {
+      margin-bottom: 27px;
+      max-width: 467px;
+    }
+
+    &__input {
+      width: 467px;
+
+      &--phone {
+        margin-bottom: 27px;
+      }
+    }
+  }
+}
+
+@media (min-width:1200px){
+  .head-form{
+    padding-top: 43px;
+    padding-bottom: 50px;
+    width: 460px;
+    margin-bottom: 18px;
+
+    &__title{
+      text-align: left;
+      font-size: 35px;
+      margin-bottom: 31px;
+      min-width: 400px;
+    }
+
+    &__text{
+      margin: 0 auto;
+      font-size: 18px;
+      margin-bottom: 32px;
+      max-width: 394px;
+      letter-spacing: -0.02em;
+    }
+
+    &__input{
+      height: 60px;
+      width: 390px;
+
+      &:not(:last-child){
+        font-size: 18px;
+        margin-bottom: 38px;
+      }
+
+      &--submit{
+        font-size: 22px;
+      }
+    }
+  }
+}

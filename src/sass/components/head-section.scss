@@ -1,0 +1,132 @@
+.head-section {
+  &__entry {
+    max-width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 16px;
+  }
+
+  &__about {
+    @include font-settings($acromregular, 14px, 1.2);
+    color: $main-color;
+    margin-bottom: 23px;
+    letter-spacing: -0.04em;
+  }
+
+  &__IT-way {
+    @include font-settings($acromextrabold, 20px, 1.2);
+    color: $secondary-color;
+    margin-bottom: 21px;
+    letter-spacing: -0.041em;
+  }
+
+  &__term {
+    @include font-settings($acrommedium, 14px, 1.2);
+    color: $main-color;
+    margin-bottom: 24px;
+  }
+
+  &__name {
+    @include font-settings($acromextrabold, 14px, 1.2);
+    color: $header-headline-color;
+    margin-bottom: 8px;
+  }
+
+  &__meeting {
+    @include font-settings($acromextrabold, 20px, 1.2);
+    color: $header-headline-color;
+  }
+
+  &__conf {
+    @include font-settings($acromregular, 13px, 1.2);
+    color: #5d6066;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .head-section {
+    &__entry{
+      padding-bottom: 22px;
+    }
+    
+    &__about {
+      margin-bottom: 42px;
+      max-width: 512px;
+    }
+
+    &__IT-way {
+      font-size: 40px;
+      margin-bottom: 28px;
+    }
+
+    &__term {
+      font-size: 18px;
+      margin-bottom: 32px;
+    }
+
+    &__name {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+    &__meeting {
+      font-size: 40px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .head-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    &__entry {
+      max-width: 638px;
+      margin-right: 98px;
+      padding-bottom: 0;
+    }
+
+    &__entry-form {
+      max-width: 460px;
+    }
+
+    &__about {
+      font-size: 20px;
+      margin-bottom: 50px;
+      max-width: 637px;
+      letter-spacing: -0.05em;
+    }
+
+    &__IT-way {
+      font-size: 60px;
+      margin-bottom: 56px;
+      letter-spacing: -0.06em;
+    }
+
+    &__term {
+      font-size: 35px;
+      margin-bottom: 46px;
+    }
+
+    &__name {
+      font-size: 27px;
+      margin-bottom: 10px;
+    }
+
+    &__meeting {
+      font-size: 52px;
+      letter-spacing: -0.02em;
+    }
+
+    &__conf{
+      font-size: 17px;
+    }
+  }
+}

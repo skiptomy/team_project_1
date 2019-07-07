@@ -1,0 +1,116 @@
+.foot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding-top: 64px;
+  padding-bottom: 37px;
+  @include bg-image('../images/photo-footer-1200.jpg');
+
+  &__main-link {
+    @extend %link;
+    @include font-settings($acromextrabold, 20px, 1.2);
+    color: $secondary-color;
+    margin-bottom: 302px;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+  &__navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -ms-flex-line-pack: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  &__link {
+    @extend %link;
+  }
+
+  &__text {
+    margin-top: 14px;
+    @include font-settings($acromregular, 14px, 1.2);
+    color: $main-color;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .foot {
+    @include bg-image(
+      '../images/photo-footer-1200@x2.jpg',
+      cover,
+      no-repeat,
+      center
+    ) {
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .foot {
+    padding-top: 94px;
+    padding-bottom: 20px;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+
+    &__main-link {
+      font-size: 30px;
+      margin: 0 auto;
+      margin-bottom: 285px;
+    }
+
+    &__navigation {
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      padding-left: 9.87%;
+    }
+
+    &__text {
+      margin-top: 0;
+      font-size: 18px;
+      margin-left: 13px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .foot {
+    padding-top: 262px;
+    padding-bottom: 64px;
+
+    &__main-link {
+      font-size: 60px;
+      margin-bottom: 638px;
+    }
+
+    &__navigation {
+      padding-left: 20.34%;
+    }
+
+    &__text {
+      margin-left: 30px;
+      font-size: 25px;
+    }
+  }
+}
