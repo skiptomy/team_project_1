@@ -1,0 +1,145 @@
+.section-questions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding-bottom: 38px;
+  padding-top: 34px;
+
+  &__entry {
+    margin: 0 auto;
+    width: 265px;
+  }
+
+  &__title {
+    @include font-settings($acromextrabold, 20px, 1.2);
+    color: #222222;
+    margin-bottom: 23px;
+    letter-spacing: -0.05em;
+  }
+
+  &__list {
+    @extend %list;
+    list-style-type: none;
+  }
+
+  &__item {
+    margin-left: 37px;
+    position: relative;
+
+    &:first-child {
+      width: 190px;
+      letter-spacing: -0.01em;
+    }
+
+    &:last-child {
+      width: 198px;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+
+    &:before {
+      content: '\2192';
+      display: inline-block;
+      background-repeat: no-repeat;
+      background-position: center;
+      left: -34px;
+      color: $secondary-color;
+      position: absolute;
+      width: 15px;
+      height: 10px;
+    }
+  }
+
+  &__text {
+    @include font-settings($acromregular, 14px, 1.2);
+    color: #222222;
+
+    &--bold {
+      font-weight: bold;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .section-questions {
+    padding-top: 50px;
+    padding-bottom: 55px;
+
+    &__entry {
+      width: 620px;
+    }
+
+    &__title {
+      font-size: 30px;
+      margin-bottom: 32px;
+      width: 582px;
+    }
+
+    &__list {
+      max-width: 600px;
+    }
+
+    &__item {
+      &:first-child {
+        width: 394px;
+      }
+
+      &:last-child {
+        width: 562px;
+      }
+    }
+
+    &__text {
+      font-size: 16px;
+      letter-spacing: -0.01em;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .section-questions {
+    padding-top: 132px;
+    padding-bottom: 96px;
+
+    &__entry {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      width: 1200px;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+    }
+
+    &__title {
+      width: 486px;
+      font-size: 48px;
+      margin-bottom: 0;
+    }
+
+    &__list {
+      margin-right: 56px;
+    }
+
+    &__item {
+      max-width: 474px;
+
+      &:not(:last-child) {
+        margin-bottom: 34px;
+      }
+
+      &:first-child {
+        width: 444px;
+      }
+    }
+
+    &__text {
+      font-size: 18px;
+    }
+  }
+}
