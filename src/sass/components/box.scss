@@ -1,21 +1,21 @@
 .box {
   @media (max-width: 599px) {
     // margin: 0 auto;
-    margin-top: 10px;
+    // margin-top: 10px;
+    margin-left: 20px;
     flex: 0 0 220px;
     flex-wrap: wrap;
-    height: 450px;
+    height: 410px;
     background-color: #ffffff;
-    border: 2px red solid;
+    border: 1px #dfe2e4 solid;
     transform: translate(-10px, -10px);
-    box-shadow: -10px 10px 0 0 rgba(149, 225, 211, 1);
+    // box-shadow: -15px 15px 0 0 #dfe2e4, 15px 0 15px -15px #d8dbdd, 0 -5px 5px -5px #d8dbdd;
+    box-shadow:  -15px 15px 0 0 #dfe2e4, 0 14px 28px #dfe2e4, 0 10px 10px rgba(0,0,0,0.22);
     opacity: 1;
-    
-    &.box:nth-last-child(n+2){
-      margin-bottom: 30px;
-    }
 
-    
+    &.box:nth-last-child(n + 2) {
+      margin-bottom: 8px;
+    }
 
     &.box::before {
       display: block;
@@ -28,9 +28,5 @@
       left: 8px;
       transform: translate(-8px, 8px);
     }
-
-   
-    
   }
 }
-

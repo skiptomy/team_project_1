@@ -13,4 +13,5 @@
   background-size: $size;
   background-repeat: $repeat;
   background-position: $pos;
+  @content;
 }

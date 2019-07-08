@@ -1,7 +1,14 @@
 .partners__subtitle {
   @media (max-width: 599px) {
-    margin: 0 auto;
-    padding-bottom: 30px;
-    width: 220px;
+    // margin: 0 auto;
+    margin-bottom: 30px;
+    width: 104px;
+    height: 20px;
+    // top: 30px;
+    // left: 30px;
+    // transform: translate(-30px, -15px);
+    @include font-settings($acromextrabold, 16px, 25px);
+    font-weight: 600;
+    background-color: #edf0f2;
   }
 }

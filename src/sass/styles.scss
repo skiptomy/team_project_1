@@ -3,6 +3,8 @@
 */
 
 @import 'helpers/variables';
+@import 'helpers/placeholders';
+@import 'helpers/mixins';
 @import './normalize';
 @import 'base';
 
@@ -20,6 +22,7 @@
 
 @import 'components/about-us__title';
 @import 'components/about-us__wrapper';
+@import 'components/wrapper__tagline';
 @import 'components/wrapper__title';
 @import 'components/wrapper__text';
 @import 'components/partners';
@@ -42,6 +45,10 @@
 @import 'components/box__title';
 @import 'components/box-subtitle';
 @import 'components/images';
+@import 'components/lol';
+@import 'components/imag';
+@import 'components/imas';
+@import 'components/im';
 @import 'components/box-subtitle--span';
 @import 'components/subtitle-wrap';
 @import 'components/subtitle';

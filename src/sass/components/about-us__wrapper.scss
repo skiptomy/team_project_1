@@ -4,12 +4,13 @@
     padding: 20px;
     width: 220px;
     height: 200px;
+    // @include bg-image($path: 'url(..//images/un_sign.svg)', $size: cover, $repeat: no-repeat, $pos: center);
     background-image: url(..//images/un_sign.svg);
     background-repeat: no-repeat;
     background-position: center;
     position: absolute;
     top: 300px;
-    transform: translateY(2000px);
+    transform: translateY(1880px);
    
 
   }

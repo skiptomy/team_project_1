@@ -3,8 +3,10 @@
     flex: 0 0 80px;
     margin: 0 auto;
     padding: 20px;
+    margin-top: 20px;
     color: rgba(0, 0, 0, 255);
     font-weight: 700;
-    letter-spacing: 0.4em;
+    // letter-spacing: 0.4em;
+    @include font-settings ($acromregular, 14px, 25px);
   }
 }
