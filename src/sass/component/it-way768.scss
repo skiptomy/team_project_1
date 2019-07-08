@@ -1,5 +1,5 @@
-it-way {
-  @media (min-width: 768px) {
+@media (min-width: 768px) {
+  .it-way {
     margin: 0 auto;
     padding-top: 38px;
     width: 768px;
@@ -9,62 +9,73 @@ it-way {
       rgba(4, 51, 78, 1),
       $secondary-dark-color
     );
+  }
 
+  .it-way {
     &__text {
-      @media (min-width: 768px) {
-        margin: 0 auto;
-        padding-bottom: 100px;
-        color: #ffffff;
-        width: 500px;
-        height: 50px;
-        font-family: $acromextrabold;
-        font-size: 22px;
-        font-weight: 700;
-      }
+      margin: 0 auto;
+      padding-bottom: 100px;
+      color: #ffffff;
+      width: 500px;
+      height: 50px;
+      font-family: $acromextrabold;
+      font-size: 22px;
+      font-weight: 700;
     }
 
     &__lead {
-        @media (min-width: 768px) {
-            margin: 0 auto;
-            color: $main-color;
-            width: 258px;
-            font-family: $acromextrabold;
-            font-weight: 700;
-            font-size: 16px;
-            right: 120px;
-            transform: translateX(-120px); 
+      margin: 0 auto;
+      color: $main-color;
+      width: 258px;
+      font-family: $acromextrabold;
+      font-weight: 700;
+      font-size: 16px;
+      right: 120px;
+      transform: translateX(-120px);
+    }
 
-            &__lead::before {
-                display: block;
-                content: '';
-                width: 60px;
-                height: 3px;
-                background-color: $secondary-color;
-                margin-bottom: 20px;
-            }
+    &__lead::before {
+      display: block;
+      content: '';
+      width: 60px;
+      height: 3px;
+      background-color: $secondary-color;
+      margin-bottom: 20px;
+    }
 
-              &__tagline {
-                width: 258px;
-                font-family: $acromregular;
-                font-size: 14px;
-                color: $main-dark-color;
-            }
+    &__tagline {
+      width: 258px;
+      font-family: $acromregular;
+      font-size: 14px;
+      color: $main-dark-color;
+    }
 
-            &__title {
-                @media (min-width: 768px) {
-                    margin: 0 auto;
-                    padding-top: 32px;;
-                    color: $secondary-color;
-                    width: 580px;
-                    height: 80px;
-                    font-family: $acromextrabold;
-                    font-size: 40px;
-                    font-weight: 700;
-                  }
-            }
+    &__title {
+      margin: 0 auto;
+      padding-top: 32px;
+      color: $secondary-color;
+      width: 580px;
+      height: 80px;
+      font-family: $acromextrabold;
+      font-size: 40px;
+      font-weight: 700;
+    }
 
-
-
+    &__btn {
+      margin: 0 auto;
+      padding: 16 24;
+      border: none;
+      cursor: pointer;
+      background-color: $button-color;
+      color: #ffffff;
+      width: 530px;
+      height: 70px;
+      left: 35px;
+      top: 80px;
+      transform: translate(35px, 80px);
+      font-family: $acromextrabold;
+      font-size: 18px;
+      font-weight: 800;
     }
   }
 }

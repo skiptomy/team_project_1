@@ -1,5 +1,5 @@
-.it-way599 {
-  @media (max-width: 599px) {
+@media (max-width: 599px) {
+  .it-way {
     margin: 0 auto;
     padding-top: 38px;
     width: 320px;
@@ -9,7 +9,9 @@
       rgba(4, 51, 78, 1),
       $secondary-dark-color
     );
-
+  }
+  
+  .it-way {
     &__text {
       margin: 0 auto;
       padding-bottom: 25px;
@@ -44,19 +46,16 @@
       color: $main-dark-color;
     }
 
-
     &__title {
       margin: 0 auto;
-      padding-top: 32px;;
+      padding-top: 32px;
       color: $secondary-color;
       width: 258px;
       height: 49px;
       font-family: $acromextrabold;
       font-size: 20px;
       font-weight: 700;
-
     }
-
 
     &__btn {
       margin: 0 auto;
@@ -73,9 +72,6 @@
       font-family: $acromextrabold;
       font-size: 14px;
       font-weight: 800;
-
     }
-
-    
   }
 }

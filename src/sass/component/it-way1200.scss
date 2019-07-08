@@ -1,5 +1,5 @@
-.it-way {
-  @media (min-width: 1200px) {
+@media (min-width: 1200px) {
+  .it-way {
     margin: 0 auto;
     padding-top: 38px;
     width: 1200px;
@@ -9,7 +9,9 @@
       rgba(4, 51, 78, 1),
       $secondary-dark-color
     );
+  }
 
+  .it-way {
     &__text {
       position: absolute;
       margin: 0;
