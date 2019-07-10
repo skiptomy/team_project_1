@@ -2,16 +2,18 @@
    Import partials below
 */
 @import './helpers/fonts.scss';
-@import './helpers/variables.scss';
-@import './helpers/placeholders.scss';
-@import './helpers/mixins.scss';
-
+@import 'helpers/variables';
+@import 'helpers/placeholders';
+@import 'helpers/mixins';
 @import './normalize';
+@import 'base';
 
-@import './base.scss';
 
-@import './components/header.scss';
-@import './components/head-section.scss';
-@import './components/head-form.scss';
-@import './components/section-questions.scss';
-@import './components/footer.scss';
+@import 'components/it-way599';
+@import 'components/it-way768';
+@import 'components/it-way1200';
+
+
+@import 'components/about-us599';
+@import 'components/about-us768';
+@import 'components/about-us1200';
