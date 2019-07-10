@@ -291,13 +291,14 @@
       margin: 0;
 
       top: 20px;
-
+    
       transform: translate(-200px, 490px);
       color: $main-dark-color;
       @include font-settings($montserat, 30px, 10px);
       font-weight: 700;
       writing-mode: tb-rl;
-      transform: rotate(90deg);
+      // transform: rotate(-45deg);
+     
     }
 
     .three {
