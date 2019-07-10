@@ -1,7 +1,7 @@
 /*
    Import partials below
 */
-
+@import './helpers/fonts.scss';
 @import 'helpers/variables';
 @import 'helpers/placeholders';
 @import 'helpers/mixins';
@@ -9,54 +9,12 @@
 @import 'base';
 
 
-@import 'component/it-way599';
-@import 'component/it-way768';
-@import 'component/it-way1200';
-
-// @import 'components/it-way';
-// @import 'components/it-way__text';
-// @import 'components/item';
-// @import 'components/item-2';
-// @import 'components/span';
-// @import 'components/task';
-// @import 'components/btn';
-// @import 'components/wrapper';
+@import 'components/it-way599';
+@import 'components/it-way768';
+@import 'components/it-way1200';
 
 
-@import 'components/about-us';
-@import 'components/container';
+@import 'components/about-us599';
+@import 'components/about-us768';
+@import 'components/about-us1200';
 
-@import 'components/about-us__title';
-@import 'components/about-us__wrapper';
-@import 'components/wrapper__tagline';
-@import 'components/wrapper__title';
-@import 'components/wrapper__text';
-@import 'components/partners';
-@import 'components/partners__subtitle';
-@import 'components/imsgess';
-@import 'components/epam';
-@import 'components/kuehne';
-@import 'components/crytek';
-@import 'components/inovecs';
-@import 'components/globallogic';
-@import 'components/alfa_bank';
-@import 'components/go_iteens';
-@import 'components/ubisoft';
-@import 'components/luxsoft';
-@import 'components/lenal';
-@import 'components/terrasoft';
-@import 'components/grossum';
-@import 'components/template_monster';
-@import 'components/box';
-@import 'components/box__title';
-@import 'components/box-subtitle';
-@import 'components/images';
-@import 'components/lol';
-@import 'components/imag';
-@import 'components/imas';
-@import 'components/im';
-@import 'components/box-subtitle--span';
-@import 'components/subtitle-wrap';
-@import 'components/subtitle';
-
-@import 'components/slogan';

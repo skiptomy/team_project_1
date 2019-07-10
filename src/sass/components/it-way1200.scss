@@ -1,4 +1,8 @@
 @media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+
   .it-way {
     margin: 0 auto;
     padding-top: 38px;
@@ -13,34 +17,38 @@
 
   .it-way {
     &__text {
-      position: absolute;
       margin: 0;
-      padding: 50px;
-      padding-bottom: 100px;
-      color: #ffffff;
-      width: 668px;
+      margin-bottom: 54px;
+      padding-left: 50px;
+      margin-top: 50px;
+      color: $main-color;
+      width: 750px;
       height: 100px;
-      font-family: $acromextrabold;
-      font-size: 30px;
+
       font-weight: 700;
+      @include font-settings($acromextrabold, 30px, 1.15);
     }
 
     &__lead {
-      margin: 0 auto;
+      margin: 0;
+      padding: 0;
       color: $main-color;
       width: 400px;
-      height: 200px;
-      font-family: $acromextrabold;
+      height: 240px;
+
       font-weight: 700;
-      font-size: 18px;
+
+      line-height: 45px;
       top: 250px;
       right: 400px;
-      transform: translate(400px, 250px);
+      transform: translate(750px, 50px);
+      @include font-settings($acromextrabold, 18px, 38px);
     }
 
     &__lead::before {
       display: block;
       content: '';
+
       width: 60px;
       height: 3px;
       background-color: $secondary-color;
@@ -49,23 +57,24 @@
 
     &__tagline {
       width: 258px;
-      font-family: $acromregular;
-      font-size: 14px;
+      font-weight: 300;
       color: $main-dark-color;
+      @include font-settings($acromextrabold, 14px, 35px);
     }
 
     &__title {
-      position: relative;
-      margin: 0 auto;
-      padding-top: 32px;
+      margin: 0;
+
+      padding: 0;
       color: $secondary-color;
-      width: 690px;
-      height: 100px;
-      font-family: $acromextrabold;
-      font-size: 48px;
+      width: 668px;
+      height: 110px;
+
       font-weight: 700;
-      right: 100px;
-      transform: translateX(-100px);
+      top: 100px;
+      left: 50px;
+      transform: translate(50px, -210px);
+      @include font-settings($acromextrabold, 48px, 1.15);
     }
 
     &__btn {
@@ -74,15 +83,14 @@
       border: none;
       cursor: pointer;
       background-color: $button-color;
-      color: #ffffff;
-      width: 680px;
+      color: $main-color;
+      width: 660px;
       height: 100px;
       left: 35px;
       top: 80px;
-      transform: translate(35px, 80px);
-      font-family: $acromextrabold;
-      font-size: 30px;
+      transform: translate(50px, -160px);
       font-weight: 800;
+      @include font-settings($acromextrabold, 30px, 25px);
     }
   }
 }

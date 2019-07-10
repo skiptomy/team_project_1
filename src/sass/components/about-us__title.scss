@@ -1,8 +1,0 @@
-.about-us__title {
-  @media (max-width: 599px) {
-    // margin: 0 auto;
-    width: 170px;
-    @include font-settings ($acromextrabold, 20px, 25px);
-    color: rgba(27, 32, 42, 255);
-  }
-}

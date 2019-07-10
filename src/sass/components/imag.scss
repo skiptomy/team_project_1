@@ -1,8 +1,0 @@
-.imag {
-  @media (max-width: 599px) {
-    margin: 0 auto;
-    // box-shadow: dropshadow(color="#dadada", x-offset=-15px);
-    // box-shadow: inset  8px 0 8px -8px #dadada;
-    box-shadow:  -15px 15px 0 0 dropshadow(#dfe2e4, x-offset="-15px") #dfe2e4, 0 14px 28px #dfe2e4, 0 10px 10px rgba(0,0,0,0.22);
-  }
-}
