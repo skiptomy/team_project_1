@@ -1,0 +1,40 @@
+@media (min-width: 1200px) {
+  .statistics {
+    width: 1320px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    padding-top: 80px;
+    padding-bottom: 144px;
+  }
+
+  .statistics-container {
+    width: 760px;
+    margin: 0;
+  }
+
+  .statistics-title {
+    width: 458px;
+    margin: 0;
+    text-align: left;
+    @include font-settings($acromextrabold, 48px, 1.5);
+    margin-bottom: 75px;
+  }
+
+  .desktop {
+    width: 600px;
+    margin-bottom: 30px;
+  }
+
+  .statistics-wrapper {
+    margin: 0;
+    margin-right: 50px;
+  }
+}

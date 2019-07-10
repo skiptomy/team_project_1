@@ -8,10 +8,9 @@
   $display: display;
   $content: content;
 }
+
 @mixin bg-image($path: '', $size: cover, $repeat: no-repeat, $pos: center) {
   background-image: url($path);
   background-size: $size;
   background-repeat: $repeat;
   background-position: $pos;
-  
-}

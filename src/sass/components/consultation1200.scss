@@ -1,0 +1,36 @@
+@media (min-width: 1200px) {
+  container {
+    min-width: 1200px;
+  }
+
+  .consultation-title {
+    width: 1130px;
+    @include font-settings($acromextrabold, 48px, 1.5);
+    margin-bottom: 100px;
+  }
+
+  .consultation {
+    &__list {
+      width: 1170px;
+    }
+
+    &__item {
+      width: 360px;
+
+      &::before {
+        @include font-settings($montserat, 150px, 1.375);
+        top: -120px;
+      }
+    }
+
+    &__btn {
+      width: 810px;
+      height: 110px;
+      @include font-settings($acromextrabold, 25px, 1.429);
+    }
+
+    &__text {
+      @include font-settings($acromregular, 18px, 1.375);
+    }
+  }
+}
