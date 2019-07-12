@@ -24,7 +24,7 @@
       margin-bottom: 30px;
       color: $main-color;
       width: 640px;
-      height: 50px;
+      // height: 50px;
       text-align: left;
       // letter-spacing: 0.0091em;
       font-weight: 700;
@@ -68,7 +68,7 @@
       padding-top: 32px;
       color: $secondary-color;
       width: 630px;
-      height: 80px;
+      // height: 80px;
       text-align: left;
       font-weight: 700;
       @include font-settings($acromextrabold, 40px, 1.15);
@@ -80,7 +80,7 @@
     &__btn {
       position: absolute;
       margin: 0 auto;
-      padding: 16 24;
+      padding: 16px;
       border: none;
       cursor: pointer;
       background-color: $button-color;

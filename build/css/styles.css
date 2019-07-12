@@ -1062,14 +1062,10 @@ img {
     letter-spacing: -0.01em;
   }
 
-  .container {
-    min-width: 768px;
-    text-align: center;
-  }
-
   .consultation {
     padding-top: 45px;
     padding-bottom: 60px;
+    text-align: center;
   }
 
   .consultation__list {
@@ -1206,7 +1202,6 @@ img {
     margin-bottom: 30px;
     color: #ffffff;
     width: 640px;
-    height: 50px;
     text-align: left;
     font-weight: 700;
     font-family: "AcromExtraBold", sans-serif;
@@ -1254,7 +1249,6 @@ img {
     padding-top: 32px;
     color: #00eaff;
     width: 630px;
-    height: 80px;
     text-align: left;
     font-weight: 700;
     font-family: "AcromExtraBold", sans-serif;
@@ -1269,7 +1263,7 @@ img {
   .it-way__btn {
     position: absolute;
     margin: 0 auto;
-    padding: 16 24;
+    padding: 16px;
     border: none;
     cursor: pointer;
     background-color: #ff6b08;
@@ -1360,8 +1354,7 @@ img {
   }
 
   .about-us__partners {
-    width: 600px;
-    height: 200px;
+    width: 650px;
     position: absolute;
     top: 700px;
     left: 45px;
@@ -1388,119 +1381,13 @@ img {
 
   .about-us__image {
     margin: 0 auto;
-    position: absolute;
-    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-grow: 3;
+    align-content: space-between;
+    width: 650px;
     height: 150px;
-    left: 50px;
-    -webkit-transform: translateX(-40px);
-    transform: translateX(-40px);
-    display: inline-block;
-  }
-
-  .about-us__kuehne {
-    position: absolute;
-    top: 50px;
-    left: 40px;
-    -webkit-transform: translate(40px, -60px);
-    transform: translate(40px, -60px);
-  }
-
-  .about-us__ciklum {
-    position: absolute;
-    top: 50px;
-    left: 80px;
-    -webkit-transform: translate(80px, -60px);
-    transform: translate(80px, -60px);
-  }
-
-  .about-us__crytek {
-    top: 40px;
-    left: 320px;
-    -webkit-transform: translate(320px, -30px);
-    transform: translate(320px, -30px);
-  }
-
-  .about-us__softserve {
-    top: 50px;
-    left: 470px;
-    -webkit-transform: translate(470px, -50px);
-    transform: translate(470px, -50px);
-  }
-
-  .about-us__globallogic {
-    top: 20px;
-    left: 0;
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-
-  .about-us__go_iteens {
-    top: 40px;
-    left: 145px;
-    -webkit-transform: translate(145px, -40px);
-    transform: translate(145px, -40px);
-  }
-
-  .about-us__alfa_bank {
-    top: 65px;
-    left: 250px;
-    -webkit-transform: translate(250px, -65px);
-    transform: translate(250px, -65px);
-  }
-
-  .about-us__inovecs {
-    top: 85px;
-    left: 380px;
-    -webkit-transform: translate(380px, -85px);
-    transform: translate(380px, -85px);
-  }
-
-  .about-us__infopulse {
-    top: 98px;
-    left: 500px;
-    -webkit-transform: translate(500px, -98px);
-    transform: translate(500px, -98px);
-  }
-
-  .about-us__grossum {
-    top: 80px;
-    -webkit-transform: translateY(-80px);
-    transform: translateY(-80px);
-  }
-
-  .about-us__template_monster {
-    top: 100px;
-    left: 120px;
-    -webkit-transform: translate(110px, -100px);
-    transform: translate(110px, -100px);
-  }
-
-  .about-us__luxsoft {
-    top: 130px;
-    left: 270px;
-    -webkit-transform: translate(270px, -130px);
-    transform: translate(270px, -130px);
-  }
-
-  .about-us__ubisoft {
-    top: 170px;
-    left: 350px;
-    -webkit-transform: translate(350px, -170px);
-    transform: translate(350px, -170px);
-  }
-
-  .about-us__lenal {
-    top: 190px;
-    left: 400px;
-    -webkit-transform: translate(400px, -190px);
-    transform: translate(400px, -190px);
-  }
-
-  .about-us__terrasoft {
-    top: 210px;
-    left: 500px;
-    -webkit-transform: translate(500px, -210px);
-    transform: translate(500px, -210px);
   }
 
   .about-us__subtitle--three {
@@ -1826,8 +1713,11 @@ img {
     font-size: 18px;
   }
 
-  .statistics {
+  .s-container {
     width: 1320px;
+  }
+
+  .statistics {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -1881,7 +1771,6 @@ img {
     margin-top: 50px;
     color: #ffffff;
     width: 670px;
-    height: 100px;
     font-weight: 700;
     font-family: "AcromExtraBold", sans-serif;
     font-size: 30px;
@@ -1893,7 +1782,6 @@ img {
     padding: 0;
     color: #ffffff;
     width: 400px;
-    height: 300px;
     top: 155px;
     right: 15px;
     -webkit-transform: translate(780px, 155px);
@@ -1929,7 +1817,6 @@ img {
     padding: 0;
     color: #00eaff;
     width: 668px;
-    height: 110px;
     font-weight: 700;
     top: 150px;
     left: 35px;
@@ -1943,7 +1830,7 @@ img {
   .it-way__btn {
     position: absolute;
     margin: 0 auto;
-    padding: 16 24;
+    padding: 16px;
     border: none;
     cursor: pointer;
     background-color: #ff6b08;
@@ -2033,7 +1920,6 @@ img {
 
   .about-us__partners {
     width: 600px;
-    height: 200px;
     position: absolute;
     top: 100px;
     left: 200px;
@@ -2058,115 +1944,12 @@ img {
 
   .about-us__image {
     margin: 0 auto;
-    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-shrink: 1;
     width: 600px;
-    display: inline-block;
-  }
-
-  .about-us__kuehne {
-    position: absolute;
-    top: 50px;
-    left: 40px;
-    -webkit-transform: translate(40px, -60px);
-    transform: translate(40px, -60px);
-  }
-
-  .about-us__ciklum {
-    position: absolute;
-    top: 50px;
-    left: 80px;
-    -webkit-transform: translate(80px, -60px);
-    transform: translate(80px, -60px);
-  }
-
-  .about-us__crytek {
-    top: 40px;
-    left: 320px;
-    -webkit-transform: translate(320px, -30px);
-    transform: translate(320px, -30px);
-  }
-
-  .about-us__softserve {
-    top: 50px;
-    left: 470px;
-    -webkit-transform: translate(470px, -50px);
-    transform: translate(470px, -50px);
-  }
-
-  .about-us__globallogic {
-    top: 20px;
-    left: 0;
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-
-  .about-us__go_iteens {
-    top: 40px;
-    left: 145px;
-    -webkit-transform: translate(145px, -40px);
-    transform: translate(145px, -40px);
-  }
-
-  .about-us__alfa_bank {
-    top: 65px;
-    left: 250px;
-    -webkit-transform: translate(250px, -65px);
-    transform: translate(250px, -65px);
-  }
-
-  .about-us__inovecs {
-    top: 85px;
-    left: 380px;
-    -webkit-transform: translate(380px, -85px);
-    transform: translate(380px, -85px);
-  }
-
-  .about-us__infopulse {
-    top: 98px;
-    left: 500px;
-    -webkit-transform: translate(500px, -98px);
-    transform: translate(500px, -98px);
-  }
-
-  .about-us__grossum {
-    top: 80px;
-    -webkit-transform: translateY(-80px);
-    transform: translateY(-80px);
-  }
-
-  .about-us__template_monster {
-    top: 100px;
-    left: 120px;
-    -webkit-transform: translate(110px, -100px);
-    transform: translate(110px, -100px);
-  }
-
-  .about-us__luxsoft {
-    top: 130px;
-    left: 270px;
-    -webkit-transform: translate(270px, -130px);
-    transform: translate(270px, -130px);
-  }
-
-  .about-us__ubisoft {
-    top: 170px;
-    left: 350px;
-    -webkit-transform: translate(350px, -170px);
-    transform: translate(350px, -170px);
-  }
-
-  .about-us__lenal {
-    top: 190px;
-    left: 400px;
-    -webkit-transform: translate(400px, -190px);
-    transform: translate(400px, -190px);
-  }
-
-  .about-us__terrasoft {
-    top: 210px;
-    left: 500px;
-    -webkit-transform: translate(500px, -210px);
-    transform: translate(500px, -210px);
+    height: 200px;
   }
 
   .about-us__subtitle--three {
@@ -2320,8 +2103,8 @@ img {
   .about-us .three {
     margin: 0;
     top: 20px;
-    -webkit-transform: translate(-70px, 450px);
-    transform: translate(-70px, 450px);
+    -webkit-transform: translate(-80px, 450px);
+    transform: translate(-80px, 450px);
     color: #edf0f2;
     font-family: "Montserrat", sans-serif;
     font-size: 30px;
@@ -2410,7 +2193,6 @@ img {
     margin-top: 32px;
     color: #00eaff;
     width: 258px;
-    height: 49px;
     font-weight: 700;
     font-family: "AcromExtraBold", sans-serif;
     font-size: 20px;
@@ -2498,8 +2280,8 @@ img {
   }
 
   .about-us__partners {
-    width: 200px;
-    height: 400px;
+    width: 280px;
+    margin: 0 auto;
     position: absolute;
     top: 1050px;
     left: 20px;
@@ -2521,92 +2303,77 @@ img {
 
   .about-us__image {
     margin: 0 auto;
-    width: 210px;
-    display: inline-block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-shrink: 1;
+    align-content: space-between;
+    width: 280px;
+    height: 300px;
+  }
+
+  .about-us__epam {
+    order: 1;
   }
 
   .about-us__kuehne {
-    top: 40px;
-    left: 90px;
-    -webkit-transform: translate(70px, -30px);
-    transform: translate(70px, -30px);
+    order: 2;
+  }
+
+  .about-us__ciklum {
+    order: 4;
   }
 
   .about-us__crytek {
-    top: 100px;
-    left: 190px;
-    -webkit-transform: translate(150px, -100px);
-    transform: translate(150px, -100px);
+    order: 3;
+  }
+
+  .about-us__softserve {
+    order: 6;
   }
 
   .about-us__globallogic {
-    top: 20px;
-    left: 145px;
-    -webkit-transform: translate(130px, -20px);
-    transform: translate(130px, -20px);
+    order: 7;
   }
 
   .about-us__go_iteens {
-    top: 10px;
-    left: 180px;
-    -webkit-transform: translate(145px, 10px);
-    transform: translate(145px, 10px);
+    order: 9;
   }
 
   .about-us__alfa_bank {
-    top: 20px;
-    left: 10px;
-    -webkit-transform: translate(10px, -20px);
-    transform: translate(10px, -20px);
+    order: 8;
   }
 
   .about-us__inovecs {
-    top: 140px;
-    left: 150px;
-    -webkit-transform: translate(150px, -140px);
-    transform: translate(150px, -140px);
+    order: 5;
+  }
+
+  .about-us__infopulse {
+    order: 10;
   }
 
   .about-us__grossum {
-    top: 50px;
-    left: 10px;
-    -webkit-transform: translate(10px, 50px);
-    transform: translate(10px, 50px);
+    order: 17;
   }
 
   .about-us__template_monster {
-    top: 30px;
-    left: 120px;
-    -webkit-transform: translate(110px, 30px);
-    transform: translate(110px, 30px);
+    order: 18;
   }
 
   .about-us__luxsoft {
-    top: 80px;
-    left: 180px;
-    -webkit-transform: translate(160px, -80px);
-    transform: translate(160px, -80px);
+    order: 12;
   }
 
   .about-us__ubisoft {
-    top: 120px;
-    left: 110px;
-    -webkit-transform: translate(100px, -120px);
-    transform: translate(100px, -120px);
+    order: 11;
   }
 
   .about-us__lenal {
-    top: 110px;
-    left: 10px;
-    -webkit-transform: translate(10px, -110px);
-    transform: translate(10px, -110px);
+    order: 13;
   }
 
   .about-us__terrasoft {
-    top: 120px;
-    left: 120px;
-    -webkit-transform: translate(120px, -120px);
-    transform: translate(120px, -120px);
+    order: 14;
   }
 
   .about-us__subtitle--three {

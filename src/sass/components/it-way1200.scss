@@ -24,7 +24,7 @@
       margin-top: 50px;
       color: $main-color;
       width: 670px;
-      height: 100px;
+      // height: 100px;
 
       font-weight: 700;
       @include font-settings($acromextrabold, 30px, 1.15);
@@ -36,7 +36,7 @@
       padding: 0;
       color: $main-color;
       width: 400px;
-      height: 300px;
+      // height: 300px;
       top: 155px;
       right: 15px;
       transform: translate(780px, 155px);
@@ -70,7 +70,7 @@
       padding: 0;
       color: $secondary-color;
       width: 668px;
-      height: 110px;
+      // height: 110px;
 
       font-weight: 700;
       top: 150px;
@@ -82,7 +82,7 @@
     &__btn {
       position: absolute;
       margin: 0 auto;
-      padding: 16 24;
+      padding: 16px;
       border: none;
       cursor: pointer;
       background-color: $button-color;

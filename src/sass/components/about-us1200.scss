@@ -74,7 +74,7 @@
 
     &__partners {
       width: 600px;
-      height: 200px;
+      // height: 200px;
       //   margin-top: 30px;
       position: absolute;
       top: 100px;
@@ -96,103 +96,119 @@
     }
 
     &__image {
+      // margin: 0 auto;
+      // position: relative;
+      // width: 600px;
+      // display: inline-block;
+
+
       margin: 0 auto;
-      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-shrink: 1;
       width: 600px;
-      display: inline-block;
+      height: 200px;
+    }
+
+    &__epam{
+      // flex-grow: 59px;
+      // order: 1;
+      
     }
 
     &__kuehne {
-      position: absolute;
-      top: 50px;
-      left: 40px;
-      transform: translate(40px, -60px);
+      // position: absolute;
+      // top: 50px;
+      // left: 40px;
+      // transform: translate(40px, -60px);
+      // order: 2;
     }
 
-    &__ciklum {
-      position: absolute;
-      top: 50px;
-      left: 80px;
-      transform: translate(80px, -60px);
-    }
+    // &__ciklum {
+    //   position: absolute;
+    //   top: 50px;
+    //   left: 80px;
+    //   transform: translate(80px, -60px);
+    // }
 
-    &__crytek {
-      top: 40px;
-      left: 320px;
-      transform: translate(320px, -30px);
-    }
+    // &__crytek {
+    //   top: 40px;
+    //   left: 320px;
+    //   transform: translate(320px, -30px);
+    // }
 
-    &__softserve {
-      top: 50px;
-      left: 470px;
-      transform: translate(470px, -50px);
-    }
+    // &__softserve {
+    //   top: 50px;
+    //   left: 470px;
+    //   transform: translate(470px, -50px);
+    // }
 
-    &__globallogic {
-      top: 20px;
-      left: 0;
-      transform: translateY(-20px);
-    }
+    // &__globallogic {
+    //   top: 20px;
+    //   left: 0;
+    //   transform: translateY(-20px);
+    // }
 
-    &__go_iteens {
-      top: 40px;
-      left: 145px;
-      transform: translate(145px, -40px);
-    }
+    // &__go_iteens {
+    //   top: 40px;
+    //   left: 145px;
+    //   transform: translate(145px, -40px);
+    // }
 
-    &__alfa_bank {
-      top: 65px;
-      left: 250px;
-      transform: translate(250px, -65px);
-    }
+    // &__alfa_bank {
+    //   top: 65px;
+    //   left: 250px;
+    //   transform: translate(250px, -65px);
+    // }
 
-    &__inovecs {
-      top: 85px;
-      left: 380px;
-      transform: translate(380px, -85px);
-    }
+    // &__inovecs {
+    //   top: 85px;
+    //   left: 380px;
+    //   transform: translate(380px, -85px);
+    // }
 
-    &__infopulse {
-      top: 98px;
-      left: 500px;
-      transform: translate(500px, -98px);
-    }
+    // &__infopulse {
+    //   top: 98px;
+    //   left: 500px;
+    //   transform: translate(500px, -98px);
+    // }
 
-    &__grossum {
-      top: 80px;
+    // &__grossum {
+    //   top: 80px;
 
-      transform: translateY(-80px);
-    }
+    //   transform: translateY(-80px);
+    // }
 
-    &__template_monster {
-      top: 100px;
-      left: 120px;
-      transform: translate(110px, -100px);
-    }
+    // &__template_monster {
+    //   top: 100px;
+    //   left: 120px;
+    //   transform: translate(110px, -100px);
+    // }
 
-    &__luxsoft {
-      top: 130px;
-      left: 270px;
-      transform: translate(270px, -130px);
-    }
+    // &__luxsoft {
+    //   top: 130px;
+    //   left: 270px;
+    //   transform: translate(270px, -130px);
+    // }
 
-    &__ubisoft {
-      top: 170px;
-      left: 350px;
-      transform: translate(350px, -170px);
-    }
+    // &__ubisoft {
+    //   top: 170px;
+    //   left: 350px;
+    //   transform: translate(350px, -170px);
+    // }
 
-    &__lenal {
-      top: 190px;
-      left: 400px;
-      transform: translate(400px, -190px);
-    }
+    // &__lenal {
+    //   top: 190px;
+    //   left: 400px;
+    //   transform: translate(400px, -190px);
+    // }
 
-    &__terrasoft {
-      top: 210px;
-      left: 500px;
-      transform: translate(500px, -210px);
-    }
+    // &__terrasoft {
+    //   top: 210px;
+    //   left: 500px;
+    //   transform: translate(500px, -210px);
+    // }
 
     &__subtitle--three {
       width: 90px;
@@ -344,7 +360,7 @@
 
       top: 20px;
       // padding-left: 136px;
-      transform: translate(-70px, 450px);
+      transform: translate(-80px, 450px);
       color: $main-dark-color;
       @include font-settings($montserat, 30px, 10px);
       font-weight: 700;

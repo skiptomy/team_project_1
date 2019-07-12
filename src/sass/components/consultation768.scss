@@ -1,12 +1,8 @@
 @media (min-width: 768px) {
-  .container {
-    min-width: 768px;
-    text-align: center;
-  }
-
   .consultation {
     padding-top: 45px;
     padding-bottom: 60px;
+    text-align: center;
 
     &__list {
       width: 768px;

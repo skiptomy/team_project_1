@@ -58,8 +58,10 @@
     }
 
     &__partners {
-      width: 200px;
-      height: 400px;
+      width: 280px;
+      margin: 0 auto;
+
+      // height: 400px;
       //   margin-top: 30px;
       position: absolute;
       top: 1050px;
@@ -80,90 +82,94 @@
 
     &__image {
       margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      flex-shrink: 1;
+      align-content: space-between;
+      width: 280px;
+      height: 300px;
+      
 
-      width: 210px;
-      display: inline-block;
+    }
+
+    &__epam{
+     
+      order: 1;
+      
     }
 
     &__kuehne {
-      top: 40px;
-      left: 90px;
-      transform: translate(70px, -30px);
+      
+      
+      order: 2;
     }
 
     &__ciklum {
+      order: 4;
     }
 
     &__crytek {
-      top: 100px;
-      left: 190px;
-      transform: translate(150px, -100px);
+      order: 3;
+      
     }
 
     &__softserve {
+      order: 6;
     }
 
     &__globallogic {
-      top: 20px;
-      left: 145px;
-      transform: translate(130px, -20px);
+     
+      order: 7;
     }
 
     &__go_iteens {
-      top: 10px;
-      left: 180px;
-      transform: translate(145px, 10px);
+     
+      order: 9;
     }
 
     &__alfa_bank {
-      top: 20px;
-      left: 10px;
-      transform: translate(10px, -20px);
+    
+      order: 8;
     }
 
     &__inovecs {
-      top: 140px;
-      left: 150px;
-      transform: translate(150px, -140px);
+      
+      order: 5;
     }
 
     &__infopulse {
+      order: 10;
     }
 
     &__grossum {
-      top: 50px;
-      left: 10px;
-      transform: translate(10px, 50px);
+      
+      order: 17;
     }
 
     &__template_monster {
-      top: 30px;
-      left: 120px;
-      transform: translate(110px, 30px);
+     
+      order: 18;
     }
 
     &__luxsoft {
-      top: 80px;
-      left: 180px;
-      transform: translate(160px, -80px);
+    
+      order: 12;
     }
 
     &__ubisoft {
-      top: 120px;
-      left: 110px;
-      transform: translate(100px, -120px);
+      
+      order: 11;
     }
 
     &__lenal {
-      top: 110px;
-      left: 10px;
-      transform: translate(10px, -110px);
+     
+      order: 13;
     }
 
     &__terrasoft {
-      top: 120px;
-      left: 120px;
-      transform: translate(120px, -120px);
+     
+      order: 14;
     }
 
    
