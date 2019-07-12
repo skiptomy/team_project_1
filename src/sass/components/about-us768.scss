@@ -4,11 +4,12 @@
   }
 
   .about-us {
+    position: relative;
     margin: 0 auto;
     padding-top: 38px;
     width: 768px;
 
-    // height: 1500px;
+    height: 1300px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -26,45 +27,46 @@
       letter-spacing: 0.041em;
       font-weight: 700;
     }
-   
 
     &__wrapper {
+      position: absolute;
       margin: 0 auto;
       margin-bottom: 10px;
-    
+
       width: 400px;
       height: 230px;
-      
+
       background-image: url(..//images/un_sign.svg);
+      
       background-repeat: no-repeat;
       background-position: top;
       position: absolute;
-      top: 900px;
+      top: 400px;
       left: 160px;
-      transform: translate(60px, 450px);
+      transform: translate(60px, 350px);
     }
 
     &__subtitle--one {
-      margin-bottom: 5px;
+      margin-bottom: 20px;
       width: 90px;
       height: 25px;
-      
+
       @include font-settings($acromextrabold, 16px, 25px);
       font-weight: 600;
       background-color: $main-dark-color;
     }
 
     &__headline {
-      
       width: 320px;
- 
+      text-align: left;
       letter-spacing: 2px;
-      @include font-settings($acromextrabold, 24px, 25px);
+      @include font-settings($acromextrabold, 24px, 35px);
     }
 
     &__text {
       color: #90929a;
       //   padding-top: 40px;
+      text-align: left;
       @include font-settings($acromextrabold, 14px, 25px);
     }
 
@@ -73,25 +75,34 @@
       height: 200px;
       //   margin-top: 30px;
       position: absolute;
-      top: 200px;
+      top: 700px;
       left: 45px;
-      transform: translate(45px, 1470px);
+      transform: translate(50px, 400px);
     }
 
     &__subtitle--two {
       margin-bottom: 30px;
       width: 100px;
       height: 25px;
-      
+
       @include font-settings($acromextrabold, 16px, 25px);
       font-weight: 600;
       background-color: $main-dark-color;
+      margin: 0 auto;
+      position: absolute;
+      top: 20px;
+      left: 30px;
+      transform: translate(-40px, -80px);
     }
 
     &__image {
       margin: 0 auto;
-      position: relative;
-      width: 210px;
+      position: absolute;
+      // position: relative;
+      width: 600px;
+      height: 150px;
+      left: 50px;
+      transform: translateX(-40px);
       display: inline-block;
     }
 
@@ -188,49 +199,51 @@
     }
 
     &__subtitle--three {
-      
       width: 90px;
       height: 25px;
       //   padding-left: 4px;
       top: 70px;
       left: 100px;
-      transform: translate(-445px, 70px);
+      transform: translate(-425px, 80px);
       @include font-settings($acromextrabold, 16px, 25px);
       font-weight: 600;
       background-color: $main-dark-color;
     }
 
     &__wrap {
-      position: relative;
-      width: 768px;
-      padding-top: 70px;
-      
-      flex-direction: row;
+      position: absolute;
       margin: 0 auto;
+      width: 760px;
+      // padding-top: 70px;
+
+      flex-direction: row;
+      margin: 0 ;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      top: 100px;
+      // right: 10px;
+      transform: translateY( 100px);
     }
 
     &__box {
-      
+      position: relative;
 
       width: 230px;
-      margin-left: 10px;
+
       height: 465px;
       background-color: $main-color;
       border: 1px $main-dark-color solid;
       transform: translate(-10px, -10px);
-      
+
       box-shadow: -15px 15px 0 0 $main-dark-color, 0 14px 28px #dfe2e4,
         0 10px 10px $main-dark-color;
       opacity: 1;
-      
     }
 
-    &__box:nth-last-child(n+2) {
-      margin-right: 10px;
-    }
+    // &__box:nth-last-child(n + 2) {
+    //   margin-right: 10px;
+    // }
 
     &__box::before {
       display: block;
@@ -245,13 +258,25 @@
     }
 
     &__caption {
+      top: 20px;
+      left: 20px;
+      transform: translate(20px, 20px);
+      
+
       width: 110px;
       height: 80px;
-      margin: 0;
+      margin: 0 ;
+      // margin-top: 20px;
+      text-align: left;
       // font-size: 18px;
-      padding: 20px;
+      // padding: 20px;
       @include font-settings($acromextrabold, 20px, 25px);
     }
+
+    // &__caption--it {
+    //   width: 140px;
+    //   margin: 0;
+    // }
 
     &__tagline {
       flex: 0 0 80px;
@@ -260,6 +285,7 @@
       margin-top: 20px;
       color: rgba(0, 0, 0, 255);
       font-weight: 700;
+      text-align: left;
       // letter-spacing: 0.4em;
       @include font-settings($acromregular, 14px, 25px);
     }
@@ -271,57 +297,87 @@
 
     &__img {
       margin: 0 auto;
+      
       // padding-top: 30px;
-      box-shadow: -12px 0 12px -12px rgba(0,0,0,0.3);
+      // box-shadow: -12px 0 12px -12px rgba(0,0,0,0.3);
+      
     }
 
-    
+    &__img--imag {
+      margin: 0 auto;
+      top: 20px;
+      
+      transform: translateY(45px);
+    }
+
+    &__img--im {
+      margin: 0 auto;
+      top: 20px;
+      
+      transform: translateY(-20px);
+    }
+
+    &__img--ims {
+      margin: 0 auto;
+      top: 20px;
+      
+      transform: translateY(-10px);
+    }
+
+
   }
 
   
   .one {
-    margin: 0;
-  
+    margin: 0 auto;
+    position: absolute;
+    // padding: 5px;
+
     top: 20px;
-    
-    padding-left: 80px;
-    transform: translate(-510px, 130px);
+    left: 520px;
+    width: 70px;
+    height: 50px;
+    text-align: center;
+    // padding-left: 80px;
+    transform: translate(-340px, 160px);
     color: $main-dark-color;
     @include font-settings($montserat, 70px, 10px);
     font-weight: 700;
-   
   }
 
   .two {
     margin: 0;
-   
-    
-    top: 20px;
-    padding-left: 136px;
-    transform: translate(280px, 60px);
+    width: 70px;
+    height: 50px;
+
+    top: 160px;
+    left: 280px;
+    // padding-left: 136px;
+    transform: translate(-190px, 140px);
     color: $main-dark-color;
     @include font-settings($montserat, 70px, 10px);
     font-weight: 700;
-    
   }
 
   .three {
     margin: 0;
-    top: 20px;
-    padding-left: 136px;
-    transform: translate(-40px, 60px);
+
+    width: 70px;
+    height: 50px;
+    top: 160px;
+    // padding-left: 136px;
+    left: 300px;
+    transform: translate(-60px, 145px);
     color: $main-dark-color;
     @include font-settings($montserat, 70px, 10px);
     font-weight: 700;
-    
   }
 
   .imag {
     filter: drop-shadow(5px 5px 5px $main-dark-color);
   }
 
-
   .imas {
-    filter: drop-shadow( 5px 5px 10px $main-dark-color);
+    filter: drop-shadow(5px 5px 10px $main-dark-color);
   }
 }

@@ -22,8 +22,8 @@
     margin: 0 auto;
     width: 700px;
     height: 540px;
-    -webkit-box-shadow: -16px 16px 5px 0px rgba(206, 208, 210, 0.23);
-    box-shadow: -16px 16px 5px 0px rgba(206, 208, 210, 0.23);
+    -webkit-box-shadow: -16px 16px 5px 0px rgba(206, 208, 210, 0.4);
+    box-shadow: -16px 16px 5px 0px rgba(206, 208, 210, 0.4);
     background-color: $main-color;
     padding: 40px;
     background-image: url('../../images/map.png');
@@ -37,8 +37,8 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    -webkit-box-shadow: 2px 2px 17px -4px rgba(0, 0, 0, 0.64);
-    box-shadow: 2px 2px 17px -4px rgba(0, 0, 0, 0.64);
+    -webkit-box-shadow: 2px 2px 17px -4px rgba(0, 0, 0, 0.34);
+    box-shadow: 2px 2px 17px -4px rgba(0, 0, 0, 0.34);
     top: 0;
     left: 0;
     z-index: -1;

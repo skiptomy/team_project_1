@@ -52,18 +52,6 @@
   }
 }
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  .foot {
-    @include bg-image(
-      '../images/photo-footer-1200@x2.jpg',
-      cover,
-      no-repeat,
-      center
-    ) {
-    }
-  }
-}
-
 @media (min-width: 768px) {
   .foot {
     padding-top: 94px;

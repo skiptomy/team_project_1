@@ -5,6 +5,7 @@
   }
 
   .it-way {
+    position: relative;
     margin: 0 auto;
     padding-top: 38px;
     width: 768px;
@@ -22,22 +23,24 @@
       // padding-bottom: 90px;
       margin-bottom: 30px;
       color: $main-color;
-      width: 650px;
+      width: 640px;
       height: 50px;
-      letter-spacing: 0.0091em;
+      text-align: left;
+      // letter-spacing: 0.0091em;
       font-weight: 700;
-      @include font-settings($acromextrabold, 22px, 25px);
+      @include font-settings($acromextrabold, 22px, 35px);
     }
 
     &__lead {
+      position: absolute;
       margin: 0 auto;
       color: $main-color;
       width: 390px;
-
+      text-align: left;
       font-weight: 700;
-
-      right: 120px;
-      transform: translateX(-130px);
+      top: 50px;
+      left: 80px;
+      transform: translate(-10px, 90px);
       @include font-settings($acromextrabold, 16px, 25px);
     }
 
@@ -54,24 +57,28 @@
     &__tagline {
       width: 258px;
       font-weight: 300;
+      
       color: $main-dark-color;
       @include font-settings($acromextrabold, 16px, 1.15);
     }
 
     &__title {
+      position: absolute;
       margin: 0 auto;
       padding-top: 32px;
       color: $secondary-color;
       width: 630px;
       height: 80px;
-
+      text-align: left;
       font-weight: 700;
       @include font-settings($acromextrabold, 40px, 1.15);
-      left: 10px;
-      transform: translateX(-10px);
+      top: 150px;
+      left: 70px;
+      transform: translate(-5px, 150px);
     }
 
     &__btn {
+      position: absolute;
       margin: 0 auto;
       padding: 16 24;
       border: none;
@@ -80,9 +87,9 @@
       color: $main-color;
       width: 530px;
       height: 70px;
-      left: 65px;
-      top: 80px;
-      transform: translate(60px, 80px);
+      left: 35px;
+      top: 230px;
+      transform: translate(35px, 230px);
       font-weight: 800;
       @include font-settings($acromextrabold, 18px, 25px);
     }

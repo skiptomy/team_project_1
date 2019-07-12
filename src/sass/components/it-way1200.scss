@@ -1,12 +1,13 @@
 @media (min-width: 1200px) {
   .container {
-    width: 1200px;
+    min-width: 1200px;
   }
 
   .it-way {
+    position: relative;
     margin: 0 auto;
     padding-top: 38px;
-    width: 1200px;
+    width: 1340px;
     height: 644px;
     background-image: radial-gradient(
       circle,
@@ -22,7 +23,7 @@
       padding-left: 50px;
       margin-top: 50px;
       color: $main-color;
-      width: 750px;
+      width: 670px;
       height: 100px;
 
       font-weight: 700;
@@ -30,19 +31,20 @@
     }
 
     &__lead {
+      // position: absolute;
       margin: 0;
       padding: 0;
       color: $main-color;
       width: 400px;
-      height: 240px;
-
+      height: 300px;
+      top: 155px;
+      right: 15px;
+      transform: translate(780px, 155px);
       font-weight: 700;
 
       line-height: 45px;
-      top: 250px;
-      right: 400px;
-      transform: translate(750px, 50px);
-      @include font-settings($acromextrabold, 18px, 38px);
+
+      @include font-settings($acromextrabold, 18px, 46px);
     }
 
     &__lead::before {
@@ -64,20 +66,21 @@
 
     &__title {
       margin: 0;
-
+      position: absolute;
       padding: 0;
       color: $secondary-color;
       width: 668px;
       height: 110px;
 
       font-weight: 700;
-      top: 100px;
-      left: 50px;
-      transform: translate(50px, -210px);
+      top: 150px;
+      left: 35px;
+      transform: translate(75px, 150px );
       @include font-settings($acromextrabold, 48px, 1.15);
     }
 
     &__btn {
+      position: absolute;
       margin: 0 auto;
       padding: 16 24;
       border: none;
@@ -86,9 +89,9 @@
       color: $main-color;
       width: 660px;
       height: 100px;
-      left: 35px;
-      top: 80px;
-      transform: translate(50px, -160px);
+      left: 25px;
+      top: 250px;
+      transform: translate(85px, 250px);
       font-weight: 800;
       @include font-settings($acromextrabold, 30px, 25px);
     }
