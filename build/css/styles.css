@@ -2260,6 +2260,7 @@ img {
     font-size: 16px;
     line-height: 25px;
     font-weight: 600;
+    letter-spacing: -1px;
     background-color: #edf0f2;
   }
 
@@ -2294,6 +2295,7 @@ img {
     margin-top: 40px;
     width: 100px;
     height: 25px;
+    letter-spacing: -1px;
     font-family: "AcromExtraBold", sans-serif;
     font-size: 16px;
     line-height: 25px;

@@ -24,19 +24,15 @@
       margin-top: 50px;
       color: $main-color;
       width: 670px;
-      // height: 100px;
-
       font-weight: 700;
       @include font-settings($acromextrabold, 30px, 1.15);
     }
 
     &__lead {
-      // position: absolute;
       margin: 0;
       padding: 0;
       color: $main-color;
       width: 400px;
-      // height: 300px;
       top: 155px;
       right: 15px;
       transform: translate(780px, 155px);
@@ -70,8 +66,6 @@
       padding: 0;
       color: $secondary-color;
       width: 668px;
-      // height: 110px;
-
       font-weight: 700;
       top: 150px;
       left: 35px;
