@@ -8,7 +8,6 @@
     margin: 0 auto;
     padding-top: 38px;
     width: 1340px;
-    height: 644px;
     background-image: radial-gradient(
       circle,
       rgba(4, 51, 78, 1),
@@ -35,6 +34,7 @@
       width: 400px;
       top: 155px;
       right: 15px;
+      -webkit-transform: translate(780px, 155px);
       transform: translate(780px, 155px);
       font-weight: 700;
 
@@ -69,7 +69,8 @@
       font-weight: 700;
       top: 150px;
       left: 35px;
-      transform: translate(75px, 150px );
+      -webkit-transform: translate(75px, 150px);
+      transform: translate(75px, 150px);
       @include font-settings($acromextrabold, 48px, 1.15);
     }
 
@@ -85,6 +86,7 @@
       height: 100px;
       left: 25px;
       top: 250px;
+      -webkit-transform: translate(85px, 250px);
       transform: translate(85px, 250px);
       font-weight: 800;
       @include font-settings($acromextrabold, 30px, 25px);

@@ -1713,8 +1713,12 @@ img {
     font-size: 18px;
   }
 
-  .s-container {
+  .wrapper-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
     width: 1320px;
+    margin: 0 auto;
   }
 
   .statistics {
@@ -1760,7 +1764,6 @@ img {
     margin: 0 auto;
     padding-top: 38px;
     width: 1340px;
-    height: 644px;
     background-image: radial-gradient(circle, #04334e, #181c27);
   }
 
